@@ -1,3 +1,4 @@
+# Git Repo Updater
 <a name="readme-top"></a>
 <details>
     <summary>Contents</summary>
@@ -6,16 +7,25 @@
             <a href="#introduction">Introduction</a>
         </li>
         <li>
-            <a href="#features">Features</a>
+            <a href="#usage">Usage</a>
         </li>
         <li>
-            <a href="#run-locally">Running Locally</a>
-            </li>
+       		<a href="#explanation">Explanation</a>
+        </li>
+        <li>
+            <a href="#building">Building</a>
+       	</li>
+		<li>
+            <a href="#contributing">Contributing</a>
+       	</li>
+       	<li>
+            <a href="#license">License</a>
+       	</li>
     </ol>
 </details>
 
-# Git Repo Updater
 
+## Introduction
 This is a simple Rust CLI program that recursively updates all git repositories in a specified directory up to a specified depth.
 
 ## Usage
@@ -29,7 +39,7 @@ For example, if you want to update all git repositories in ~/Projects up to a de
 
 `cargo run ~/Projects 2`
 
-## How It Works
+## Explanation
 
 The program starts by reading all the directories in the specified directory. For each directory, it checks if a .git directory exists within it. If a .git directory exists, it runs the git pull command in that directory. This process is done recursively up to the specified depth.
 ## Building
