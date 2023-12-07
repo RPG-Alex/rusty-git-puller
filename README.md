@@ -37,7 +37,9 @@ Replace <directory> with the directory you want to start searching from, and <de
 
 For example, if you want to update all git repositories in ~/Projects up to a depth of 2 directories, you would run:
 
-`cargo run ~/Projects 2`
+```bash
+cargo run ~/Projects 2
+```
 
 ## Explanation
 
@@ -48,7 +50,9 @@ To build the program, you need to have Rust installed. You can download Rust fro
 
 Once you have Rust installed, you can build the program with:
 
-`cargo build --release`
+```bash
+cargo build --release
+```
 
 This will create an executable in the target/release directory.
 
